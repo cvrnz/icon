@@ -1,4 +1,4 @@
-# Icon Maker
+# Icon
 
 A small web app for turning an SVG into a 1024×1024 or 512×512 PNG app icon on a solid background, or for changing an SVG's colors, deleting parts of it, trimming the empty space around it, and saving it as a new SVG.
 

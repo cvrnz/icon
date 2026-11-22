@@ -2,7 +2,7 @@
  * original file, so a deletion keeps pointing at the same element whatever
  * else is edited. */
 
-export const INDEX_ATTR = 'data-icon-maker-index';
+export const INDEX_ATTR = 'data-icon-index';
 
 function parse(markup: string) {
   const doc = new DOMParser().parseFromString(markup, 'image/svg+xml');
