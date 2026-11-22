@@ -8,6 +8,7 @@ import {DEFAULT_LAYOUT, EXPORT_SIZES, type ExportSize, exportPng, type Layout} f
 import {elementNames, parentsOf, removeElements, tagElements, untag} from './lib/sections';
 import {type LoadedSvg, loadSvg} from './lib/svg';
 import {trimSvg, viewBoxOf} from './lib/trim';
+import {SsoAccount} from './lib/SsoAccount';
 
 type Mode = 'png' | 'edit';
 
@@ -312,6 +313,7 @@ export default function App() {
       </main>
 
       <aside className='flex w-80 flex-col gap-5 overflow-y-auto border-l border-separator bg-surface p-5'>
+        <SsoAccount className='-my-2 self-end' />
         <ToggleButtonGroup
           aria-label='Mode'
           fullWidth
